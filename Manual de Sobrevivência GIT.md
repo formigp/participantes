@@ -77,6 +77,8 @@ Para exibir as diferenças no conteúdo dos arquivos modificados no repositório
 git diff
 ```
 
+Importante: para retornar ao prompt de comando, pressione a tecla **q**.
+
 ## Como saber quais são os novos arquivos e arquivos modificados no repositório local que não foram atualizados/enviados para o repositório remoto
 
 Para saber quais os arquivos que precisam ser adicionados ao repositório remoto, assim como os arquivos que foram modificados mas ainda não foram submetidos ao repositório remoto, digite o comando abaixo:
