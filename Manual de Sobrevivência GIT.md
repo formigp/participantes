@@ -32,3 +32,43 @@ Para saber o endereço do repositório remoto ao qual seu repositório local est
 ```
 git remote -v
 ```
+
+## Como adicionar um arquivo em específico ao repositório
+
+Primeiro você deverá adicionar o arquivo em específico ao repositório local, você deve digitar a linha de comando abaixo:
+
+```
+git add <nome do arquivo incluindo sua extensão>
+```
+
+Importante: o comando acima apenas irá sinalizar que o arquivo foi marcado para ser enviado ao repositório.
+
+Para confirmar o envio (comitar) do arquivo(s) marcados para o repositório você deverá digitar a linha de comando abaixo:
+
+```
+git commit -m "mensagem de referência/comentário/descritivo/etc."
+```
+
+Para atualizar o repositório remoto você deverá digitar o comando abaixo:
+
+```
+git push -u origin <nome do branch>
+``` 
+
+## Como atualizar os arquivos modificados no repositório gerando uma nova versão no repositório remoto
+
+Para confirmar o envio (comitar) do arquivo(s) modificados para o repositório você deverá digitar a linha de comando abaixo:
+
+```
+git commit -m "mensagem de referência/comentário/descritivo/etc."
+```
+
+E para atualizar o repositório remoto você deverá digitar o comando abaixo:
+
+```
+git push -u origin <nome do branch>
+``` 
+
+
+
+
