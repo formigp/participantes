@@ -102,4 +102,3 @@ Se quiser enviá-la para o repositório remoto você deverá utilizar o comando:
 ```
 git push origin <nome da branch>
 ```
-
