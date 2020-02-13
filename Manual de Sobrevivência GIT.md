@@ -74,7 +74,7 @@ git push origin <nome da branch>
 Em alguns casos faze-se necessário abortar o commit ou marcação de arquivos para inclusão no repositório, caso ainda não tenha realizado o seu envio para o repositório remoto, então você poderá utilizar o commando abaixo:
 
 ```
-git reset
+git commit --amend
 ```
 
 ## Como exibir as diferenças de "comite" entre meu repositório local e o repositório remoto
