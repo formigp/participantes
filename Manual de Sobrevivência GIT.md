@@ -69,6 +69,14 @@ E para atualizar o repositório remoto você deverá digitar o comando abaixo:
 git push origin <nome da branch>
 ``` 
 
+## Como abortar/desfazer um commit ou inclusão de arquivo antes de realizar seu envio para o repositório remoto (antes do commando push)
+
+Em alguns casos faze-se necessário abortar o commit ou marcação de arquivos para inclusão no repositório, caso ainda não tenha realizado o seu envio para o repositório remoto, então você poderá utilizar o commando abaixo:
+
+```
+git reset
+```
+
 ## Como exibir as diferenças de "comite" entre meu repositório local e o repositório remoto
 
 Para exibir as diferenças no conteúdo dos arquivos modificados no repositório local e o repositório remoto vocÊ deverá digitar o comando abaixo:
@@ -110,3 +118,5 @@ Para trocar de branch digite o comando abaixo:
 ```
 git checkout <nome da branch> 
 ```
+
+
