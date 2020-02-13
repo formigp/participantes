@@ -87,7 +87,21 @@ Para saber quais os arquivos que precisam ser adicionados ao repositório remoto
 git status
 ```
 
+## Como criar um nova **branch** (ramificação)
 
+Para criar uma nova branch digite o comando abaixo:
+
+```
+git branch <nome da branch>
+```
+
+Importante: a branch será criada apenas localmente.
+
+Se quiser enviá-la para o repositório remoto você deverá utilizar o comando:
+
+```
+git push origin <nome da branch>
+```
 
 
 
