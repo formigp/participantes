@@ -15,7 +15,7 @@ Observação: ao realizar esse comando o será criado uma pasta oculta com o nom
 Importante: O fato der criar repositório não indica que os dados serão enviado para núvem no GitHub ou BitBucker.
 
 
-## Associar o repositório local a um repositório remoto
+## Associar (sincronizar) o repositório local a um repositório remoto
 
 Para associar um repositorio local do GIT com um repositório remoto você deverá digitar a linha de comando abaixo:
 
@@ -46,7 +46,7 @@ Importante: o comando acima apenas irá sinalizar que o arquivo foi marcado para
 Para confirmar o envio (comitar) do arquivo(s) marcados para o repositório você deverá digitar a linha de comando abaixo:
 
 ```
-git commit -m "mensagem de referência/comentário/descritivo/etc."
+git commit <nome do arquivo incluindo sua extensão> -m "mensagem de referência/comentário/descritivo/etc."
 ```
 
 Para atualizar o repositório remoto você deverá digitar o comando abaixo:
@@ -66,8 +66,25 @@ git commit -a -m "mensagem de referência/comentário/descritivo/etc."
 E para atualizar o repositório remoto você deverá digitar o comando abaixo:
 
 ```
-git push -u origin <nome do branch>
+git push
 ``` 
+
+## Como exibir as diferenças de "comite" entre meu repositório local e o repositório remoto
+
+Para exibir as diferenças no conteúdo dos arquivos modificados no repositório local e o repositório remoto vocÊ deverá digitar o comando abaixo:
+
+```
+git diff
+```
+
+## Como saber quais são os novos arquivos e arquivos modificados no repositório local que não foram atualizados/enviados para o repositório remoto
+
+Para saber quais os arquivos que precisam ser adicionados ao repositório remoto, assim como os arquivos que foram modificados mas ainda não foram submetidos ao repositório remoto, digite o comando abaixo:
+
+```
+git status
+```
+
 
 
 
