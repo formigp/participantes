@@ -107,6 +107,6 @@ git push origin <nome da branch>
 
 Para trocar de branch digite o comando abaixo:
 
-```git
+```
 git checkout <nome da branch> 
 ```
