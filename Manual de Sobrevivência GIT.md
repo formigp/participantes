@@ -55,12 +55,12 @@ Para atualizar o repositório remoto você deverá digitar o comando abaixo:
 git push -u origin <nome do branch>
 ``` 
 
-## Como atualizar os arquivos modificados no repositório gerando uma nova versão no repositório remoto
+## Como atualizar os arquivos modificados no repositório gerando uma nova versão do arquivo no repositório remoto
 
 Para confirmar o envio (comitar) do arquivo(s) modificados para o repositório você deverá digitar a linha de comando abaixo:
 
 ```
-git commit -m "mensagem de referência/comentário/descritivo/etc."
+git commit -a -m "mensagem de referência/comentário/descritivo/etc."
 ```
 
 E para atualizar o repositório remoto você deverá digitar o comando abaixo:
