@@ -66,7 +66,7 @@ git commit -a -m "mensagem de referência/comentário/descritivo/etc."
 E para atualizar o repositório remoto você deverá digitar o comando abaixo:
 
 ```
-git push
+git push <nome da branch>
 ``` 
 
 ## Como exibir as diferenças de "comite" entre meu repositório local e o repositório remoto
