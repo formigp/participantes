@@ -146,3 +146,9 @@ Informe o nome da branch que contém a versão a ser incorporada (mergeada) com 
 ```
 git merge <nome da branch>
 ```
+
+Para confirmar que o merge seja aplicado (reflita) no repositório remoto, você deverá digitar o comando abaixo:
+
+```
+git push origin <nome da branch>
+```
