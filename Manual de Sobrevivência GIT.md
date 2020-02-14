@@ -119,4 +119,30 @@ Para trocar de branch digite o comando abaixo:
 git checkout <nome da branch> 
 ```
 
+## Visualizar o historico do repositório
 
+Para visualziar o histórico do repositório digite o comando abaixo:
+
+```
+git log --oneline
+```
+
+## Realizar o merge (fusão) de **branchs** (ramificações)
+
+Importante: antes de realizar o merge, certifique-se que os branchs estão atualizados em nosso repositório local, para isso utilize o comando abaixo:
+
+```
+git pull origin <nome da branch>
+```
+
+Para realizar o merge, selecione o branch que deverá ser atualizado com o branch desejado, utilizando o comando abaixo:
+
+```
+git checkout <nome da branch>
+```
+
+Informe o nome da branch que contém a versão a ser incorporada (mergeada) com o brach desejado, utilizando o comando abaixo:
+
+```
+git merge <nome da branch>
+```
