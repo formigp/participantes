@@ -119,6 +119,21 @@ Para trocar de branch digite o comando abaixo:
 git checkout <nome da branch> 
 ```
 
+## Como apagar um **branch**
+
+Para apagar um branch local,  utilize o comando abaixo:
+
+```
+git  branch -D <nome da branch>
+```
+
+Para  apagar o branch no repositório remoto, utilize:
+
+```
+git push origin  <nome da branch> --delete
+```
+
+
 ## Visualizar o historico do repositório
 
 Para visualziar o histórico do repositório digite o comando abaixo:
@@ -151,4 +166,18 @@ Para confirmar que o merge seja aplicado (reflita) no repositório remoto, você
 
 ```
 git push origin <nome da branch>
+```
+
+## Realizar o clone de um repositório
+
+Ao realizar o clone ele irá apenas criar uma cópia do repositório, ele não ficará vinculado ao repositório remoto.
+
+```
+git clone <endereço do  repositório>
+```
+
+Para vincular o clone ao repositório remoto você deverá utilizar o comando abaixo:
+
+```
+git fetch <endereço do repositório>
 ```
